@@ -1,10 +1,12 @@
 {
-  "name": "base64ToFile",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.ts",
+  "name": "base64-convert",
+  "version": "1.0.1",
+  "description": "base64 convert",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [
     "base64ToBlob",
@@ -17,6 +19,9 @@
   "email": "zhouzhu96@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/letconstvar/base64ToFile.git"
-  }
+    "url": "https://github.com/ZhouZhu-s/base64ToFile.git"
+  },
+  "files": [
+    "lib"
+  ]
 }
